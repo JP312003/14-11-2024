@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: url("../img/psu-background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 20px;
+}
+.top-nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    display: flex;
+    backdrop-filter: blur(5px);
+    justify-content: space-between;
+    padding: 10px 10x;
+    transition: all .55s ease;
+    overflow: hidden;
+}
+.logo{
+    padding: 5px 20px;
+}
+.name{
+    display: inline-block;
+    color: blue;
+    margin-right: 690px;
+}
+.name h1{
+    margin: 5px 0 -10px -10px;
+}
+.name h2{
+    margin: 0 0 -10px -10px;
+}
+.container{
+    display: flex;
+    height: 630px;
+    width: 100%;
+    margin-top: 90px;
+    gap: 10px;
+}
+.left-nav{
+    width: 20%;
+    padding: 10px;
+    gap: 20px;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+}
+.profile-image{
+    height: 90px;
+    width: 90px;
+    border-style: groove;
+    border-radius: 180px;
+    margin-bottom: 10px;
+}
+.navs{
+    height: 55%;
+}
+.nav{
+    display: inline-block;
+    justify-content: center;
+    height: 90px;
+    width: 70px;
+    backdrop-filter: blur(10px);
+    border-width: 1px;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 12px;
+    margin: 5px;
+    text-align: center;
+}
+.navs .icon{
+    height: 40px;
+    padding: 25px;
+}
+.navs h6{
+    padding-top: 10px;
+}
+.navs a{
+    text-decoration: none;
+}
+.logout a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 15%;
+    text-decoration: none;
+}
+.input-logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 80%;
+    height: 40px;
+    padding: 0 15px;
+    color: #010046;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: .3s;
+}
+.input-logout:hover{
+    gap: 15px;
+}
+.container-container{
+    width: 80%;
+    border: 1px solid rgba(255,255,255,0.3);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    padding: 10px 20px;
+    overflow: hidden;
+}
+.details{
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
+}
